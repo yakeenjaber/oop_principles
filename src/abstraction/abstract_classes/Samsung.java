@@ -2,6 +2,7 @@ package abstraction.abstract_classes;
 
 public class Samsung extends Phone {
 
+    public static final String OS = "Android";
     public Samsung() {
     }
 

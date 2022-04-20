@@ -2,9 +2,9 @@ package abstraction.abstract_classes;
 
 public class IPhone extends Phone{
 
+    public static final String OS = "IOS";
     public IPhone() {
     }
-
     public IPhone(String brand, String color, int storage, double price) {
         super(brand, color, storage, price);
     }
