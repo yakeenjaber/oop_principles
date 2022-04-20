@@ -24,5 +24,10 @@ public class Samsung extends Phone {
     public void text() {
         System.out.println("Samsung texts");
     }
+
+    @Override
+    public boolean isConvertible() {
+        return true;
+    }
 }
 

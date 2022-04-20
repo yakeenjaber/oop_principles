@@ -24,6 +24,7 @@ public abstract class Phone {
     public abstract void call();
     public abstract void ring();
     public abstract void text();
+    public abstract boolean isConvertible();
 
 
     @Override

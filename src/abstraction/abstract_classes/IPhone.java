@@ -23,4 +23,9 @@ public class IPhone extends Phone{
     public void text(){
         System.out.println("IPhone texts");
     }
+
+    @Override
+    public boolean isConvertible() {
+        return true;
+    }
 }
