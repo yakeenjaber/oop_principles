@@ -29,7 +29,7 @@ public abstract class Phone {
 
     @Override
     public String toString() {
-        return getClass().getSimpleName() + "Phone{" +
+        return getClass().getSimpleName() + "{" +
                 "brand='" + brand + '\'' +
                 ", color='" + color + '\'' +
                 ", storage=" + storage +
